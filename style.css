@@ -1,0 +1,34 @@
+
+.grid {
+    display:flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+.item img {
+    border-radius: 2px; 
+    border: 2px solid black;
+}
+.header {
+  background-image:url("backgroundimg.jpg") ;
+}
+
+div {
+    background-image:url("backgroundImg2.jpg")
+}
+
+a :link{
+    color: white;
+}
+
+a :visited{
+    color: white;
+}
+
+.item :hover{
+    transform : scale(1.2);
+    }
+ 
+.img :hover{
+    transform :rotate(85);
+}
+ 
